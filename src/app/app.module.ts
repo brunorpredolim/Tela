@@ -8,7 +8,9 @@ import {MatMenuModule,
         MatToolbarModule,
         MatIconModule,
         MatListModule,
-        MatSidenavModule} from '@angular/material';
+        MatSidenavModule,
+        MatFormFieldModule,
+        MatSelectModule} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import {MatMenuModule,
     MatToolbarModule,
     MatIconModule,
     MatListModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatFormFieldModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
