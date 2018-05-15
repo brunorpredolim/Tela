@@ -1,9 +1,14 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
-
+import 'hammerjs';
 import {AppComponent} from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatMenuModule, MatButtonModule,MatToolbarModule} from '@angular/material';
+import {MatMenuModule,
+        MatButtonModule,
+        MatToolbarModule,
+        MatIconModule,
+        MatListModule,
+        MatSidenavModule} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -14,7 +19,10 @@ import {MatMenuModule, MatButtonModule,MatToolbarModule} from '@angular/material
     MatButtonModule,
     BrowserAnimationsModule,
     MatMenuModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatIconModule,
+    MatListModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]

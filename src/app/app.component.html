@@ -1,23 +1,7 @@
+<mat-toolbar color="primary"> <span>My Application</span>
+<button mat-icon-button [matMenuTriggerFor]="menu">
+	<mat-icon>more_vert</mat-icon>
+</button>
+</mat-toolbar>
 
-<button mat-button [matMenuTriggerFor]="menu"></button>
-<mat-menu #menu="matMenu">
-  <button mat-menu-item>Item 1</button>
-  <button mat-menu-item>Item 2</button>
-</mat-menu>
-
-<button mat-button [matMenuTriggerFor]="menu">PortFolio</button>
-<button mat-button [matMenuTriggerFor]="menu">Serviços</button>
-<button mat-button [matMenuTriggerFor]="menu">Quem Sou</button>
-
-<button ng-click="toggle = !toggle">{{toggleText}}</button>
-<div class="box on" ng-show="toggle" ng-animate="'box'">On</div>
-
-<script>
-app.controller('AppController', function ($scope) {
-    $scope.toggle = true;
-
-    $scope.$watch('toggle', function(){
-        $scope.toggleText = $scope.toggle ? 'Toggle!' : 'some text';
-    })
-})
-</script>
+<mat
