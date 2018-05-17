@@ -39,9 +39,19 @@
     position: absolute;
     left: 75%;
   }
-  .menu-item{
-    float:right;
-    width: 100%   !important; 
+  .animate-show-hide.ng-hide {
+    opacity: 0;
+  }
+  
+  .animate-show-hide.ng-hide-add,
+  .animate-show-hide.ng-hide-remove {
+    transition: all linear 0.5s;
+  }
+  
+  .check-element {
+    border: 1px solid black;
+    opacity: 1;
+    padding: 10px;
   }
  
   @media only screen and (max-width: 600px) {
