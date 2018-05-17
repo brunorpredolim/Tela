@@ -1,50 +1,39 @@
 <mat-toolbar color="primary">
 	<span>My Application</span>
 	
-</mat-toolbar>
-
-
-<mat-toolbar color="secondary">
+	<button class="menu_reponsive" mat-button [matMenuTriggerFor]="menu"><mat-icon>menu</mat-icon></button>
 	
-	<button mat-button  >
-		homeaa
-	</button> 
-	<button mat-button  >
-		blaaaa
-	</button> 
-	<button mat-button  >
-	blaaaa
-	</button> 
-	<button mat-button  >
-		blaaaaa
-		</button> 
-		<button mat-button  >
-			blaaaaa
-			</button> 
+</mat-toolbar>
+<mat-menu class="menu-item" #menu="matMenu">
+	<mat-list>
+		<mat-list-item> Pepper </mat-list-item>
+		<mat-list-item> Salt </mat-list-item>
+		<mat-list-item> Paprika </mat-list-item>
+	 </mat-list>
+</mat-menu> 
+
+<mat-toolbar class="menu" color="secondary">
+
+  <button mat-button>
+    homeaa
+  </button>
+  <button mat-button>
+    blaaaa
+  </button>
+  <button mat-button>
+    blaaaa
+  </button>
+  <button mat-button>
+    blaaaaa
+  </button>
+  <button mat-button>
+    blaaaaa
+	</button>
+	
+
+
 </mat-toolbar>
 
 
-<header>
-  <mat-toolbar color="primary">Angular 6 Bootstrap 4 Example</mat-toolbar>
-</header>
 
-<section class="container">
-  <div class="row">
-    <mat-card class="col-md-6">1</mat-card> <!-- we use mat-card instead of div -->
-    <mat-card class="col-md-6">2</mat-card>
-    <mat-card class="col-md-6 d-block d-lg-none">3</mat-card> <!-- will be hidden on large screens -->
-    <mat-card class="col-md-6 d-block d-lg-none">4</mat-card>
-  </div>
-</section>
-
-<footer></footer>
-
-
-<mat-drawer-container class="example-container" [hasBackdrop]="true">
-  <mat-drawer #drawer [mode]="push">I'm a drawer</mat-drawer>
-  <mat-drawer-content>
-    
-    <button mat-raised-button (click)="drawer.toggle()"><mat-icon>menu</mat-icon></button>
-  </mat-drawer-content>
-</mat-drawer-container>
 

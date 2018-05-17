@@ -34,3 +34,22 @@
     /* Support for IE. */
     font-feature-settings: 'liga';
   }
+  .menu_reponsive{
+    display: none;
+    position: absolute;
+    left: 75%;
+  }
+  .menu-item{
+    float:right;
+    width: 100%   !important; 
+  }
+ 
+  @media only screen and (max-width: 600px) {
+    .menu{
+      display: none;
+    }
+    .menu_reponsive{
+      display: block;
+    }
+    
+}
