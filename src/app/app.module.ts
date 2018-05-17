@@ -10,7 +10,8 @@ import {MatMenuModule,
         MatListModule,
         MatSidenavModule,
         MatFormFieldModule,
-        MatSelectModule} from '@angular/material';
+        MatSelectModule,
+        MatCardModule} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import {MatMenuModule,
     MatListModule,
     MatSidenavModule,
     MatFormFieldModule,
-    MatSelectModule
+    MatSelectModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
