@@ -3,10 +3,10 @@
 <mat-toolbar color="primary">
 	<span>My Application</span>
 	
-	<button  class="menu_reponsive" mat-button (click)="toggle()"><mat-icon>menu</mat-icon></button>
+	<button  class="menu_reponsive" mat-button (click)="toggle()"><mat-icon>{{mostraMenu}}</mat-icon></button>
 	
 </mat-toolbar>
-<mat-card *ngIf="show">
+<mat-card class="sub_menu_reponsive" *ngIf="show">
 		<button mat-button>bababa</button>
 </mat-card>
 
@@ -35,5 +35,22 @@
 </mat-toolbar>
 
 
+<mat-grid-list cols="1" rowHeight="3:1">
+    <mat-grid-tile>
+        <mat-card class="apresentacao">
+            <mat-card-title>	Olá meu nome é Bruno! </mat-card-title>
+            <img mat-card-image src="https://www.comexblog.com.br/wp-content/uploads/2014/06/work-img-lg-6-304x170.jpg">
+              
+                <mat-card-content class="titulo"> sadasdasdasdjasdasjdasjdklasdlahsdasdasaaaaaaaa.</mat-card-content>
+             
+        </mat-card>
+    </mat-grid-tile>
+   
+   
+  </mat-grid-list>
 
+<footer>
+  <mat-toolbar color="primary">
+  </mat-toolbar>
 
+</footer>

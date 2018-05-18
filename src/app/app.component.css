@@ -39,19 +39,26 @@
     position: absolute;
     left: 75%;
   }
-  .animate-show-hide.ng-hide {
-    opacity: 0;
+  .sub_menu_reponsive{
+    display: none;
+    
   }
-  
-  .animate-show-hide.ng-hide-add,
-  .animate-show-hide.ng-hide-remove {
-    transition: all linear 0.5s;
+  mat-card img{
+    object-fit: cover; /*this makes de image in src fit to the size of specified below*/
+    width: 100%; /* Here you can use wherever you want to specify the width and also the height of the <img>*/
+    height: 100%;
   }
-  
-  .check-element {
-    border: 1px solid black;
-    opacity: 1;
-    padding: 10px;
+  .apresentacao
+  {
+    float: left;
+    right: 30%;
+    bottom:10%;
+  }
+
+  .titulo
+  {
+    float: left;
+    left:20%;
   }
  
   @media only screen and (max-width: 600px) {
@@ -59,6 +66,10 @@
       display: none;
     }
     .menu_reponsive{
+      display: block;
+    }
+
+    .sub_menu_reponsive{
       display: block;
     }
     
