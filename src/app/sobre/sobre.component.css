@@ -1,5 +1,5 @@
 .bg-default{
-    background-color: rgb(61, 216, 236);
+    background-color: rgb(131, 111, 119);
 }
 
 @media only screen and (max-width: 600px) {
@@ -29,7 +29,7 @@
    
 .setrch
 {
-   height: 89vh;
+   height: 87vh;
 }
 
 .center-img {

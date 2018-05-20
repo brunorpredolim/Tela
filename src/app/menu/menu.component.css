@@ -1,11 +1,29 @@
 .bg-default{
-    background-color: rgb(14, 145, 197);
+    background-color: rgb(19, 49, 95);
 }
 .center-img {
     
     left:100px;
 }   
 
-.nav-item{
-    margin-left:  50%;
+/* .nav-item{
+    margin-left:  30%;
+} */
+
+.menu-style
+{  
+    margin-left:  30%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.icon-style-ml
+{  
+    margin-left:  35%;
+    margin-top: 2%;
+}
+.icon-style
+{  
+    margin-left:  5%;
+    margin-top: 2%;
 }
