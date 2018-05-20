@@ -8,6 +8,7 @@ import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { AppRoutingModule } from './/app-routing.module';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 
 
@@ -17,7 +18,8 @@ import { AppRoutingModule } from './/app-routing.module';
     AppComponent,
     MenuComponent,
     FooterComponent,
-    SobreComponent
+    SobreComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,

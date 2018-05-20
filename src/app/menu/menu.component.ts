@@ -7,7 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
-  constructor() { }
+ 
+  constructor() { 
+    function HeaderController($scope, $location) 
+    { 
+        $scope.isActive = function (viewLocation) { 
+            return viewLocation === $location.path();
+        };
+    }
+  }
 
   ngOnInit() {
   }

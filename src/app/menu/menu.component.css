@@ -1,3 +1,11 @@
 .bg-default{
     background-color: rgb(14, 145, 197);
 }
+.center-img {
+    
+    left:100px;
+}   
+
+.nav-item{
+    margin-left:  50%;
+}

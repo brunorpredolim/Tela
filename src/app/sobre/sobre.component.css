@@ -1,0 +1,53 @@
+.bg-default{
+    background-color: rgb(61, 216, 236);
+}
+
+@media only screen and (max-width: 600px) {
+    .setrch
+    {
+        height: 736px;
+    }
+    .center-img {
+        position: absolute;
+        padding: 10px;
+        top: 50%;
+        left:50%;
+        width: 50%;
+        transform: translate(-50%,-50%);
+        /*border: 1px dashed deeppink;*/
+    }   
+    
+    .center-text {
+        position: absolute;
+        top: 25%;
+        /*border: 1px dashed deeppink;*/
+    }
+    
+}
+
+@media only screen and (min-width: 600px) {
+   
+.setrch
+{
+   height: 89vh;
+}
+
+.center-img {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    width: 65%;
+    
+    transform: translate(-50%,-50%);
+    /* border: 1px solid rgb(46, 40, 43); */
+}
+
+.center-text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    right: 10%;
+    /*border: 1px dashed deeppink;*/
+}
+
+}
